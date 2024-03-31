@@ -8,10 +8,11 @@
     "test": "jest",
     "dev": "nodemon --env-file=.env server.js"
   },
-  "jest":{
+  "jest": {
     "collectCoverage": true,
-    "coveragePathIgnorePatterns":[
-      "/node_modules/", "/logs/"
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "/logs/"
     ]
   },
   "author": "",
